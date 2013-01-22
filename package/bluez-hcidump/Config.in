@@ -1,0 +1,8 @@
+config BR2_PACKAGE_BLUEZ_HCIDUMP
+	bool "bluez-hcidump"
+	select BR2_PACKAGE_DBUS
+	help
+	  bluez utils
+
+	   http://pkgs.fedoraproject.org/repo/pkgs/bluez-hcidump/
+

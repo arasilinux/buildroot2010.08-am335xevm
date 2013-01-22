@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PCSCLITE
+	bool "pcsclite"
+	 select BR2_PACKAGE_LIBUSB
+	help
+	  Userspace library for accessing USB devices
+
+	  http://alioth.debian.org/
+

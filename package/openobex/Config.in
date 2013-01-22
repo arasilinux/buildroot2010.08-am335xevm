@@ -1,0 +1,15 @@
+config BR2_PACKAGE_OPENOBEX
+	bool "openobex"
+	depends on BR2_PACKAGE_LIBUSB
+	select BR2_PACKAGE_DBUS
+	help
+	  openobex libarys to access bluez
+
+
+
+            http://jaist.dl.sourceforge.net/project/pocketbook-free/PocketBook_Free_Linux_Sources
+	
+
+
+
+

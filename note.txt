@@ -1,0 +1,5 @@
+modified in board-am335xevm.c //added platform and nand_init function
+modified in nand_base.c //commented ERR function nand not found
+modified in nand_ids.c //added one chip id 0xda
+modified in mtdcore.c commented//BUG_ON(mtd->writesize == 0);
+

@@ -1,0 +1,9 @@
+config BR2_PACKAGE_CCID
+	bool "ccid"
+	select BR2_PACKAGE_PCSCLITE
+
+	help
+	  Userspace library for accessing USB devices
+
+	  http://alioth.debian.org/
+

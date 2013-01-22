@@ -1,0 +1,9 @@
+config BR2_PACKAGE_OPENSC
+	bool "opensc"
+
+	select BR2_PACKAGE_LIBUSB
+	help
+	  Userspace library for accessing USB devices
+
+	   http : //www.opensc-project.org/
+

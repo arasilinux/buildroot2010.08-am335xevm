@@ -1,0 +1,8 @@
+config BR2_PACKAGE_OBEXD
+	bool "obexd"
+	help
+	  obexd is a D-Bus enabled OBEX client daemon that allow easy 
+	  integration of OBEX based Bluetooth profiles.
+
+	  http://www.kernel.org/pub/linux/bluetooth
+

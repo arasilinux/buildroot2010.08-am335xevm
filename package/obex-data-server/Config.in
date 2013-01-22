@@ -1,0 +1,15 @@
+config BR2_PACKAGE_OBEXDATASERVER
+	bool "obex-data-server"
+	depends on BR2_PACKAGE_OPENOBEX
+	help
+	  obex-data-server is D-Bus service providing high-level 
+	  OBEX client and server side functionality.
+
+	  http://tadas.dailyda.com/software/
+
+
+	
+
+
+
+
